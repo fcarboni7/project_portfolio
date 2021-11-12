@@ -1,0 +1,91 @@
+* {
+    font-family: 'Poppins', sans-serif;}
+
+/*Style navbar*/
+.navbar  {
+  background-color: rgba(30, 30, 30, 0.95);
+  border-bottom: 2px solid #26A69A;
+  }
+
+.nav-link:hover {
+  color: #26A69A!important;
+}
+
+/*Style intro*/
+#intro {
+  background-image: url('../img/intro.jpg');
+  height: 880px;
+}
+
+.text-highlighted {
+  color: #26A69A;
+}
+
+.btn-green:hover {
+  background: linear-gradient(to right, #00897B, #4DB6AC)!important;
+  border: 2px solid#fff!important;
+}
+
+/*Style About me*/
+.progress-bar {
+ background: linear-gradient(to right, #00897B, #4DB6AC)!important;
+}
+
+.hobby {
+  font-weight:600;
+  font-size: 14px;
+}
+
+/*Style Portfolio*/
+.btn-card {
+  background: #26A69A!important;
+}
+
+.btn-card:hover {
+  background: #00897B!important;
+}
+
+
+/*Style checkbox*/
+.checkbox--box {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type='checkbox']{
+  filter: grayscale(100%);
+}
+
+/*Responsive site*/
+
+@media (max-width: 993px) {
+
+    .navbar, .nav-item {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      align-items: center;
+      justify-content: center;
+      margin-left: -30px!important;
+    }
+
+      #intro {height: 1050px}
+    }
+
+@media (max-width: 576px) {
+
+    .intro-font {
+      font-size: 25px!important;
+    }
+    #intro {height: 650px}
+
+    .avatar{
+      width: 50px!important;
+    }
+
+    .navbar-footer{
+      display: none!important;
+    }
+}
