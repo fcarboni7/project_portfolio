@@ -4,17 +4,39 @@
 /*Style navbar*/
 .navbar  {
   background-color: rgba(30, 30, 30, 0.95);
-  border-bottom: 2px solid #26A69A;
   }
 
 .nav-link:hover {
   color: #26A69A!important;
 }
 
+/*Style Scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(30, 30, 30, 0.95);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #26A69A;
+}
+
 /*Style intro*/
 #intro {
   background-image: url('../img/intro.jpg');
-  height: 880px;
+  height: 800px;
 }
 
 .text-highlighted {
